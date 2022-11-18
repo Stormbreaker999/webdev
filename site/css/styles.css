@@ -1,68 +1,46 @@
-*{
-	box-sizing: border-box;
-}
-
-@media (max-width: 767px){
-	.sm-12{
-		width: 100%;
-	}
-	p{
-		font-size: 0.60em;
-	}
-}
-@media (min-width: 768px) and (max-width: 991px){
-	.md-6{
-		width: 47%;
-	}
-	#box #block3{
-		clear: left;
-	}
-	p{
-		font-size: 0.70em;
-	}
-}
-@media (min-width: 992px){
-	.lg-4{
-		width: 31%;
-	}
-	p{
-		font-size: 0.80em;
-	}
-}
-#box{
-	display: block;
-	background color: gray;
-}
-#box #block1{
-	display: block;
-	border: 5px solid black;
-	background-color: lightblue;
-	float: left;
-}
-#box #block2{
-	display: block;
-	border: 5px solid black;
-	background-color:  lightgreen;
-	float: left;
-}
-#box #block3{
-	display: block;
-	border: 5px solid black;
-	background-color:  lightyellow;
-	float: left;
-}
-div div{
-	margin: 8px 8px 8px 8px;
-	padding: 5px 5px 5px 5px;
-}
 h1{
-	color: red;
+	margin-top: 5px;
+	margin-right: 15px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#header-nav{
+	background-color: lightgray;
+	height: 100px;
+}
+.center{
 	text-align: center;
 }
-h4{
-	color: red;
-	text-align: center;
-    display: block;
-    border: 2px solid black;
-    width: 50%;
+#Chicken, #Beef, #Sushi{
+	display: block;
+	border: 2px solid black;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	background-color: lightgray;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: darkgreen;
+  text-align: center;
+  font-size: 2em;
+}
+#nav-list a:hover {
+  background: indianred;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+ul li{
+	background-color: pink;
+	margin-right: 2px;
 }
